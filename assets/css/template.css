@@ -1,4 +1,10 @@
-* {
+*, 
+*:after,
+*:before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
     color: #111111;
 }
@@ -47,7 +53,7 @@ body {
     background-color: #ffffff;    
 }
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 20px;
 }
 #footer a {
